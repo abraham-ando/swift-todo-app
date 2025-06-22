@@ -19,13 +19,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A5B0C27C2E085CFE00B4F3DD /* Todos CLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Todos CLI"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B0C27C2E085CFE00B4F3DD /* Todo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Todo; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A5B0C27E2E085CFE00B4F3DD /* Todos CLI */ = {
+		A5B0C27E2E085CFE00B4F3DD /* Todo.Console */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Todos CLI";
+			path = Todo.Console;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +44,7 @@
 		A5B0C2732E085CFE00B4F3DD = {
 			isa = PBXGroup;
 			children = (
-				A5B0C27E2E085CFE00B4F3DD /* Todos CLI */,
+				A5B0C27E2E085CFE00B4F3DD /* Todo.Console */,
 				A5B0C27D2E085CFE00B4F3DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +52,7 @@
 		A5B0C27D2E085CFE00B4F3DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5B0C27C2E085CFE00B4F3DD /* Todos CLI */,
+				A5B0C27C2E085CFE00B4F3DD /* Todo */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,9 +60,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5B0C27B2E085CFE00B4F3DD /* Todos CLI */ = {
+		A5B0C27B2E085CFE00B4F3DD /* Todo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5B0C2832E085CFE00B4F3DD /* Build configuration list for PBXNativeTarget "Todos CLI" */;
+			buildConfigurationList = A5B0C2832E085CFE00B4F3DD /* Build configuration list for PBXNativeTarget "Todo" */;
 			buildPhases = (
 				A5B0C2782E085CFE00B4F3DD /* Sources */,
 				A5B0C2792E085CFE00B4F3DD /* Frameworks */,
@@ -73,13 +73,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A5B0C27E2E085CFE00B4F3DD /* Todos CLI */,
+				A5B0C27E2E085CFE00B4F3DD /* Todo.Console */,
 			);
-			name = "Todos CLI";
+			name = Todo;
 			packageProductDependencies = (
 			);
 			productName = "Todos CLI";
-			productReference = A5B0C27C2E085CFE00B4F3DD /* Todos CLI */;
+			productReference = A5B0C27C2E085CFE00B4F3DD /* Todo */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5B0C2772E085CFE00B4F3DD /* Build configuration list for PBXProject "Todos CLI" */;
+			buildConfigurationList = A5B0C2772E085CFE00B4F3DD /* Build configuration list for PBXProject "Todo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5B0C27B2E085CFE00B4F3DD /* Todos CLI */,
+				A5B0C27B2E085CFE00B4F3DD /* Todo */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5B0C2772E085CFE00B4F3DD /* Build configuration list for PBXProject "Todos CLI" */ = {
+		A5B0C2772E085CFE00B4F3DD /* Build configuration list for PBXProject "Todo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5B0C2812E085CFE00B4F3DD /* Debug */,
@@ -281,7 +281,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5B0C2832E085CFE00B4F3DD /* Build configuration list for PBXNativeTarget "Todos CLI" */ = {
+		A5B0C2832E085CFE00B4F3DD /* Build configuration list for PBXNativeTarget "Todo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5B0C2842E085CFE00B4F3DD /* Debug */,
